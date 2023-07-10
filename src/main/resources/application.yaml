@@ -1,0 +1,31 @@
+server:
+  port: 8083
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: 123456
+    driver-class-name: org.postgresql.Driver
+  kafka:
+    group.id: adapter_test_group
+    request.timeout: 650000
+    max.poll.interval: 650000
+    bootstrap.servers: localhost:9092
+    consumer:
+      topic:
+        start.hero.entry: startProcessHeroEntry
+    producer:
+      topic:
+        load.hero.entry: statusLoadHeroEntry
+        start.hero.entry: startProcessHeroEntry
+
+adapter:
+  kafka:
+    group.id: adapter_test_group
+    bootstrap.servers: localhost:9092
+    consumer:
+      topics:
+
+    producer:
+      topics:

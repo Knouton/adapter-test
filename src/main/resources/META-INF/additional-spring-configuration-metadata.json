@@ -1,0 +1,58 @@
+{
+	"properties": [
+		{
+			"name": "spring.kafka.request.timeout",
+			"type": "java.lang.String",
+			"description": "Description for spring.kafka.request.timeout."
+		},
+		{
+			"name": "spring.kafka.consumer.topic.get.hero.entry",
+			"type": "java.lang.String",
+			"description": "Description for spring.kafka.consumer.topic.get.hero.entry."
+		},
+		{
+			"name": "spring.kafka.max.poll.interval",
+			"type": "java.lang.String",
+			"description": "Description for spring.kafka.max.poll.interval."
+		},
+		{
+			"name": "spring.kafka.group.id",
+			"type": "java.lang.String",
+			"description": "Description for spring.kafka.group.id."
+		},
+		{
+			"name": "adapter.kafka.bootstrap.servers",
+			"type": "java.lang.String",
+			"description": "Description for adapter.kafka.bootstrap.servers."
+		},
+		{
+			"name": "adapter.kafka.group.id",
+			"type": "java.lang.String",
+			"description": "Description for adapter.kafka.group.id."
+		},
+		{
+			"name": "spring.kafka.consumer.topic.start.hero.entry",
+			"type": "java.lang.String",
+			"description": "Description for spring.kafka.consumer.topic.start.hero.entry."
+		},
+		{
+			"name": "spring.kafka.producer.topic.load.hero.entry",
+			"type": "java.lang.String",
+			"description": "Description for spring.kafka.producer.topic.load.hero.entry."
+		},
+		{
+			"name": "spring.kafka.producer.topic.start.hero.entry",
+			"type": "java.lang.String",
+			"description": "Description for spring.kafka.producer.topic.start.hero.entry."
+		},
+		{
+			"name": "spring.kafka.consumer.topic.group.id",
+			"type": "java.lang.String",
+			"description": "Description for spring.kafka.consumer.topic.group.id."
+		},
+		{
+			"name": "spring.kafka.producer.topic.group.id",
+			"type": "java.lang.String",
+			"description": "Description for spring.kafka.producer.topic.group.id."
+		}
+	] }
